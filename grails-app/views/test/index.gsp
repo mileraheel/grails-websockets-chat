@@ -15,7 +15,7 @@
 	</textarea>
 	
 	<script type="text/javascript">
-		var webSocket=new WebSocket("ws://localhost:8080/grails-websocket-example/annotated");
+		var webSocket=new WebSocket("ws://192.168.0.175:8080/grails-websocket-example/annotated");
 		var messagesTextarea=document.getElementById("messagesTextarea");
 		webSocket.onopen=function(message) {processOpen(message);};
 		webSocket.onmessage=function(message) {processMessage(message);};

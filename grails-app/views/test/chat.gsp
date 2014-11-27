@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<meta name="layout" content="main">
+		<meta name="layout" content="chat-main">
 		<g:set var="entityName" value="${message(code: 'admin.label', default: 'Admin')}" />
 		<title><g:message code="default.create.label" args="[entityName,BAH,BAH]" /></title>
 	</head>

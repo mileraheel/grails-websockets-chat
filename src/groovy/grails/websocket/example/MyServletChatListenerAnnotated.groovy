@@ -111,20 +111,6 @@ public class MyServletChatListenerAnnotated implements ServletContextListener {
         }
 
         println clientMap
-
-       /*
-		String username=(String) userSession.getUserProperties().get("username")
-		if (!username) {
-			userSession.getUserProperties().put("username", message)
-			myMsg.put("message", "System:connected as ==>"+message)
-			def aa=myMsg as JSON
-			userSession.getBasicRemote().sendText(aa as String)
-		}else{
-			Iterator<Session> iterator=chatroomUsers.iterator()
-			myMsg.put("message", "${username}:${message}")
-			def aa=myMsg as JSON
-			while (iterator.hasNext()) iterator.next().getBasicRemote().sendText(aa as String)
-		}*/
 	}
 	@OnClose
 	public void handeClose(Session userSession) {

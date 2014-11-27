@@ -2,13 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a8f0309a-26e0-4900-85b5-fd58b37d43d4" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/grails-app/views/layouts/chat-main.gsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/groovy/grails/websocket/example/MyServletChatListenerAnnotated.groovy" afterPath="$PROJECT_DIR$/src/groovy/grails/websocket/example/MyServletChatListenerAnnotated.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/test/chat.gsp" afterPath="$PROJECT_DIR$/grails-app/views/test/chat.gsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-websocket-example.iws" afterPath="$PROJECT_DIR$/grails-websocket-example.iws" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/test/index.gsp" afterPath="$PROJECT_DIR$/grails-app/views/test/index.gsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/layouts/main.gsp" afterPath="$PROJECT_DIR$/grails-app/views/layouts/main.gsp" />
     </list>
     <ignored path="grails-websocket-example.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$USER_HOME$/.grails/" />
-    <file path="/Dummy.txt" changelist="a8f0309a-26e0-4900-85b5-fd58b37d43d4" time="1416808467897" ignored="false" />
-    <file path="/chat.gsp" changelist="a8f0309a-26e0-4900-85b5-fd58b37d43d4" time="1416848890431" ignored="false" />
+    <file path="/Dummy.txt" changelist="a8f0309a-26e0-4900-85b5-fd58b37d43d4" time="1417070122585" ignored="false" />
+    <file path="/chat.gsp" changelist="a8f0309a-26e0-4900-85b5-fd58b37d43d4" time="1417020306549" ignored="false" />
     <file path="$PROJECT_DIR$/../../../v3-triperna/valet/grails-app/services/com/triperna/valet/payment/MethodCashuCcService.groovy" changelist="a8f0309a-26e0-4900-85b5-fd58b37d43d4" time="1416724746579" ignored="false" />
     <file path="$PROJECT_DIR$/../../../v3-triperna/valet/grails-app/services/com/triperna/valet/payment/MethodCashuCashexService.groovy" changelist="a8f0309a-26e0-4900-85b5-fd58b37d43d4" time="1416724746579" ignored="false" />
     <file path="$PROJECT_DIR$/../../../v3-triperna/valet/test/unit/com/triperna/valet/payment/BankControllerSpec.groovy" changelist="a8f0309a-26e0-4900-85b5-fd58b37d43d4" time="1416724746579" ignored="false" />
@@ -102,7 +107,7 @@
       <file leaf-file-name="MyServletChatListenerAnnotated.groovy" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/groovy/grails/websocket/example/MyServletChatListenerAnnotated.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="81" column="44" selection-start="2792" selection-end="2792" vertical-scroll-proportion="0.0">
+            <state line="31" column="78" selection-start="972" selection-end="972" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -111,7 +116,16 @@
       <file leaf-file-name="main.gsp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grails-app/views/layouts/main.gsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="22" selection-start="1362" selection-end="1362" vertical-scroll-proportion="0.0">
+            <state line="9" column="32" selection-start="540" selection-end="540" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="chat-main.gsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/grails-app/views/layouts/chat-main.gsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -120,16 +134,7 @@
       <file leaf-file-name="chat.gsp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grails-app/views/test/chat.gsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="72" column="45" selection-start="2684" selection-end="2684" vertical-scroll-proportion="-1.3714286">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="README.md" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="58" column="60" selection-start="1902" selection-end="1920" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -147,17 +152,19 @@
       <file leaf-file-name="index.gsp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grails-app/views/test/index.gsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="68" selection-start="898" selection-end="898" vertical-scroll-proportion="0.0">
+            <state line="28" column="75" selection-start="1117" selection-end="1117" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MyServletContextListenerAnnotated.groovy" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="MyServletContextListenerAnnotated.groovy" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/groovy/grails/websocket/example/MyServletContextListenerAnnotated.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="44" column="83" selection-start="1448" selection-end="1448" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="56" column="90" selection-start="1785" selection-end="1785" vertical-scroll-proportion="1.1467577">
+              <folding>
+                <element signature="e#34#69#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -180,15 +187,17 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/grails-app/views/layouts/main.gsp" />
+        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/groovy/grails/websocket/example/MyServletChatListenerAnnotated.groovy" />
         <option value="$PROJECT_DIR$/grails-app/views/test/chat.gsp" />
-        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/grails-app/views/layouts/main.gsp" />
+        <option value="$PROJECT_DIR$/grails-app/views/test/index.gsp" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
+    <option name="x" value="438" />
+    <option name="y" value="58" />
     <option name="width" value="1280" />
     <option name="height" value="732" />
   </component>
@@ -270,6 +279,68 @@
               <option name="myItemId" value="grails-app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="grails-websocket-example" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="grails-websocket-example" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="grails-app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="grails-websocket-example" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="grails-websocket-example" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="grails-app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="layouts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="grails-websocket-example" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="grails-websocket-example" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="grails-app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -331,6 +402,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/grails-app/views/layouts" />
       <recent name="$PROJECT_DIR$/grails-app/assets/stylesheets" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -421,7 +493,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="732" extended-state="0" />
+    <frame x="438" y="58" width="1280" height="732" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -444,7 +516,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18233387" sideWeight="0.8316994" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21636952" sideWeight="0.8316994" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -515,13 +587,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/grails-app/views/layouts/main.gsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="6" selection-start="1357" selection-end="1357" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/views/test/chat.gsp">
       <provider selected="true" editor-type-id="text-editor">
         <state line="30" column="49" selection-start="1161" selection-end="1161" vertical-scroll-proportion="0.0">
@@ -539,14 +604,9 @@
     <entry file="file://$PROJECT_DIR$/src/groovy/grails/websocket/example/MyServletContextListenerAnnotated.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state line="44" column="83" selection-start="1448" selection-end="1448" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/groovy/grails/websocket/example/MyServletContextListenerAnnotated.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="83" selection-start="1448" selection-end="1448" vertical-scroll-proportion="0.0">
-          <folding />
+          <folding>
+            <element signature="e#34#69#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -565,32 +625,14 @@
         <state line="13" column="23" selection-start="435" selection-end="435" vertical-scroll-proportion="0.2284041" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/views/test/index.gsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="68" selection-start="898" selection-end="898" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/lib/idea.jar!/resources/html5-schema/web-forms.rnc">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="292" column="16" selection-start="6344" selection-end="6344" vertical-scroll-proportion="1.6515373">
-          <folding />
-        </state>
+        <state line="292" column="16" selection-start="6344" selection-end="6344" vertical-scroll-proportion="1.6515373" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/assets/stylesheets/bootstrap.min.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="46" selection-start="211" selection-end="211" vertical-scroll-proportion="0.08759124">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/views/layouts/main.gsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="22" selection-start="1362" selection-end="1362" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="4" column="46" selection-start="211" selection-end="211" vertical-scroll-proportion="0.08759124" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/assets/stylesheets/style.css">
@@ -600,24 +642,52 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/views/layouts/chat-main.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/views/layouts/main.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="32" selection-start="540" selection-end="540" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/groovy/grails/websocket/example/MyServletChatListenerAnnotated.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="81" column="44" selection-start="2792" selection-end="2792" vertical-scroll-proportion="0.0">
+        <state line="31" column="78" selection-start="972" selection-end="972" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/views/test/chat.gsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="72" column="45" selection-start="2684" selection-end="2684" vertical-scroll-proportion="-1.3714286">
+        <state line="58" column="60" selection-start="1902" selection-end="1920" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
+    <entry file="file://$PROJECT_DIR$/grails-app/views/test/index.gsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="28" column="75" selection-start="1117" selection-end="1117" vertical-scroll-proportion="0.0">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/groovy/grails/websocket/example/MyServletContextListenerAnnotated.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="56" column="90" selection-start="1785" selection-end="1785" vertical-scroll-proportion="1.1467577">
+          <folding>
+            <element signature="e#34#69#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
