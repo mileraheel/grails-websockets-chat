@@ -9,7 +9,7 @@
     <div class="container">
     <div class="row">
         <div class="col-md-12 top-bar">
-            <div class="pull-left"><h1>Chat Application</h1></div>
+            <div class="pull-left"><h1>Tech-Talk Websockets Example</h1></div>
             <div class="input-group input-group-sm col-md-3 pull-right">
                 <input type="text" class="form-control" id="username">
                 <span class="input-group-btn">
